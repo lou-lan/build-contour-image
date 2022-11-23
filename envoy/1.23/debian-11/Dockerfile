@@ -1,4 +1,4 @@
-FROM docker pull envoyproxy/envoy:v1.23.1 as builder
+FROM envoyproxy/envoy:v1.23.1 as builder
 
 FROM docker.io/bitnami/minideb:bullseye
 
